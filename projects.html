@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nikhil S Rao | Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar">
+    <a class="brand" href="index.html">Nikhil S Rao</a>
+    <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Resume</a>
+      <a href="biodata.html">Bio-data</a>
+      <a class="active" href="projects.html">Projects</a>
+    </div>
+    <button id="themeToggle" class="theme-btn">🌙</button>
+  </nav>
+</header>
+
+<main class="container page">
+  <div class="page-heading">
+    <p class="eyebrow">WORK & ACHIEVEMENTS</p>
+    <h1>Projects</h1>
+    <p class="lead">Selected academic and personal projects from my resume.</p>
+  </div>
+
+  <section class="cards project-cards">
+    <article class="card project-card">
+      <span class="project-number">01</span>
+      <h2>Cybernews Webscraper</h2>
+      <p class="muted">5th semester side project</p>
+      <p>Developed a custom web scraper for fetching the latest news related to cybersecurity during my work as newsletter head of the college cybersecurity club.</p>
+      <span class="badge">Python / Web Scraping</span>
+    </article>
+
+    <article class="card project-card">
+      <span class="project-number">02</span>
+      <h2>RSA Encryption Website</h2>
+      <p class="muted">Semester 1 mini project</p>
+      <p>Worked with a team to develop a web application that performs RSA encryption for files uploaded by a user.</p>
+      <span class="badge">Web Application / Cryptography</span>
+    </article>
+
+    <article class="card project-card">
+      <span class="project-number">03</span>
+      <h2>Smart Traffic Analysis Tool</h2>
+      <p class="muted">Hackathon project</p>
+      <p>Worked with a team of friends to develop a smart traffic analysis tool tailored for Indian roads, reaching the final round of the first hackathon.</p>
+      <span class="badge">Traffic Analysis / Team Project</span>
+    </article>
+  </section>
+
+  <section class="section panel">
+    <h2>Career Interests</h2>
+    <div class="tags">
+      <span>Cybersecurity</span><span>Offensive Security Research</span><span>LLM Security</span>
+      <span>Reverse Engineering</span><span>Software Development</span><span>Research</span>
+    </div>
+  </section>
+
+  <section class="section center">
+    <button id="contactBtn" class="btn primary">Show Contact Information</button>
+    <div id="contactBox" class="contact-box">
+      <p><strong>Email:</strong> <a href="mailto:nikhil.sk.rao@gmail.com">nikhil.sk.rao@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/Skoelle18" target="_blank">github.com/Skoelle18</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/nikhil-s-rao-a70a09306/" target="_blank">LinkedIn profile</a></p>
+    </div>
+  </section>
+</main>
+
+<footer><p>© <span id="year"></span> Nikhil S Rao</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
